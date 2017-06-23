@@ -3,16 +3,67 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.github.jasonwangdev.drawableview.demo.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
+    <com.github.jasonwangdev.drawableview.DrawableEditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#0F0"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="Drawable EditText"
+        app:drawableLeft="@mipmap/ic_launcher"
+        app:drawableLeftHeight="20dp"
+        app:drawableLeftWidth="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <com.github.jasonwangdev.drawableview.DrawableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#0FF"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Drawable TextView"
+        app:drawableRight="@mipmap/ic_launcher"
+        app:drawableRightHeight="30dp"
+        app:drawableRightWidth="30dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.jasonwangdev.drawableview.DrawableCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#F00"
+        android:button="@null"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Drawable CheckBox"
+        app:drawableLeft="@mipmap/ic_launcher"
+        app:drawableLeftHeight="30dp"
+        app:drawableLeftWidth="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.github.jasonwangdev.drawableview.DrawableButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#00F"
+        android:button="@null"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="Drawable Button"
+        app:drawableRight="@mipmap/ic_launcher"
+        app:drawableRightHeight="25dp"
+        app:drawableRightWidth="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

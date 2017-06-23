@@ -1,1 +1,1 @@
-include ':app', ':drawable-view-android'
+include ':app', ':drawable-view-library'

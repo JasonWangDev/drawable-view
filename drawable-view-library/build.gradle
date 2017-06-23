@@ -11,7 +11,7 @@ ext {
     libraryVersion = '1.0.0'                                             // Library Version
 
     libraryName = 'Drawable View Android'
-    libraryDescription = ''
+    libraryDescription = 'Drawable view for Android'
 
     siteUrl = 'https://github.com/JasonWangDev/drawable-view-android'
     gitUrl = 'https://github.com/JasonWangDev/drawable-view-android.git'
